@@ -1,0 +1,21 @@
+#ifndef CUSTOM_DEFINES_H
+#define CUSTOM_DEFINES_H
+
+#define GLOBAL_MASTER 0
+#define COORDINATOR 4
+#define MAX_FILESIZE 100
+#define MAX_STRINGSIZE 1000000
+
+#define NEIGHBOR_TAG 0
+#define ARRAY_TAG 1
+#define CLUSTER_TAG 2
+#define SUBTRSZ_TAG 3
+#define WORKLOAD_TAG 4
+#define NOTIFYWORKER_TAG 5
+#define GETMASTER_TAG 6
+
+#define SEND_LOG 1
+#define RECV_LOG 1
+#define DEBUG 0 /* IMPORTANT */
+
+#endif // CUSTOM_DEFINES_H
